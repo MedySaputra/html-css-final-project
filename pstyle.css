@@ -1,0 +1,124 @@
+header {
+    background-color: #0f8b8d;
+    background-size: cover;
+    width: 100%;
+    color: #f9fbfe;
+  }
+  .header {
+    padding: 40px 140px;
+  }
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+  }
+.header img {
+    width: 335px;
+    height: 67px;
+  }
+.header ul {
+    display: flex;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+  }
+.header li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  footer {
+    background-color: #143642;
+    padding: 80px 140px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px 30px 0 0;
+  }
+.wrapper_logo img {
+    width: 335px;
+    height: 67px;
+  }
+.icon_logo img {
+    filter: invert(100%);
+    width: 32px;
+    height: 32px;
+  }
+ul {
+    color: #f9fbfe;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 0;
+  }
+li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+.head {
+    color: #ec9a29;
+}
+
+main {
+    padding: 100px 0;
+}
+main h1 {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #0f8b8d;
+    margin: 0;
+}
+main p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #143642;
+  }
+.wrapper {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+.box {
+    background-image: url("./images/Coffee background.png");
+    width: 30%;
+    aspect-ratio: 1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    transition: all 500ms;
+    justify-content: center;
+  }
+.name-price h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #f9fbfe;
+  }
+.name-price h3 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #f9fbfe;
+    padding-top: 10px;
+  }
+.box img {
+    width: 186px;
+    height: 139.63px;
+    margin: 0 auto;
+  }
+.box:hover {
+    transform: scale(1);
+    display: flex;
+    flex-direction: column-reverse;
+  }
